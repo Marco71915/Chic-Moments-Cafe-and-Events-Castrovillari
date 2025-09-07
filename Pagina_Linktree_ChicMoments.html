@@ -110,6 +110,12 @@
     Seguici su Facebook
   </div>
 
+  <!-- Bottone TikTok -->
+  <div class="link-button" id="tiktokButton" role="button" tabindex="0">
+    <img class="icon" src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok" />
+    Seguici su TikTok
+  </div>
+
   <!-- Sezione contatti -->
   <div class="contact-section">
     <div class="contact-block">
@@ -142,6 +148,11 @@
 
     document.getElementById('instagramButton').addEventListener('click', function () {
       openAppOrWeb('instagram://user?username=chic_moments_cafe_events', 'https://www.instagram.com/chic_moments_cafe_events/');
+    });
+
+
+    document.getElementById('tiktokButton').addEventListener('click', function () {
+      openAppOrWeb('snssdk1233://user/profile/7453941705920250902', 'https://www.tiktok.com/@chicmomentsagency');
     });
   </script>
 </body>
