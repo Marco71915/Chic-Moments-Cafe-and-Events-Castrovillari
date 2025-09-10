@@ -104,11 +104,11 @@
     Seguici su Instagram
   </div>
 
-  <!-- Bottone Facebook -->
-  <div class="link-button" id="facebookButton" role="button" tabindex="0">
+  <!-- Bottone Facebook (link diretto al profilo web) -->
+  <a class="link-button" href="https://www.facebook.com/profile.php?id=100035012364682&locale=it_IT" target="_blank">
     <img class="icon" src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
     Seguici su Facebook
-  </div>
+  </a>
 
   <!-- Bottone TikTok -->
   <div class="link-button" id="tiktokButton" role="button" tabindex="0">
@@ -142,14 +142,9 @@
       }, 1000);
     }
 
-    document.getElementById('facebookButton').addEventListener('click', function () {
-      openAppOrWeb('fb://page/100035012364682', 'https://www.facebook.com/profile.php?id=100035012364682&locale=it_IT');
-    });
-
     document.getElementById('instagramButton').addEventListener('click', function () {
       openAppOrWeb('instagram://user?username=chic_moments_cafe_events', 'https://www.instagram.com/chic_moments_cafe_events/');
     });
-
 
     document.getElementById('tiktokButton').addEventListener('click', function () {
       openAppOrWeb('snssdk1233://user/profile/7453941705920250902', 'https://www.tiktok.com/@chicmomentsagency');
